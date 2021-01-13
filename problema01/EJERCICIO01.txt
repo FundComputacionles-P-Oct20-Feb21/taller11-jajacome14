@@ -1,0 +1,51 @@
+
+1. Inicio
+2. Funcion principal()
+3. 	num, i[0, n]
+4.	Escribir "Ingrese 1 para el area del cuadrado, 2 para el triángulo y 3 para el rectangulo.
+5.	Leer num
+6.	Si num == 1 entonces
+7.		obtenerAreaCuadrado()
+8.	De lo contario
+9.		Si num == 2 entonces
+10.			obtenerAreaTriangulo()
+11.		De lo contario
+12.			Si num == 3 entonces
+13.				obtenerAreaRectangulo()
+13.			De lo contrario
+14.				Escribir "El numero que escribio es incorrecto"
+15. 			Fin si
+15.		Fin si
+16. 	Fin si
+17. Fin funcion principal
+18. funcion obtenerAreaCuadrado()
+19.	lado, i[0, n]
+20.	area, i[0, n]
+21.	Escribir "Ingrese el valor de lado"
+22.	Leer lado
+23.	area = lado * lado
+24.	Escribir "El area del cuadro es: " + area
+25. Fin funcion obtenerAreaCuadrado()
+26. funcion obtenerAreaTriangulo()
+27.	base, i[0, n]
+28.	altura, i[0, n]
+29.	area, i[0, n]
+30.	Escribir "Ingrese el valor de base"
+31.	Leer base
+32.	Escribir "Ingrese el valor de altura"
+33.	Leer altura
+34.	area = (base * altura)/2
+35.	Escribir "El area del triangulo es: "+ area
+36. Fin obtenerAreaTriangulo()
+37. funcion obtenerAreaRectangulo()
+38.	base, i[0, n]
+39.	altura, i[0, n]
+40.	area, i[0, n]
+41.	Escribir "Ingrese el valor de base"
+42.	Leer base
+43.	Escribir "Ingrese el valor de altura"
+44.	Leer altura
+45. 	area = base * altura
+46.	Escribir "El area del rectangulo es: "+ area
+47. Fin funcion obtenerAreaRectangulo()
+48. Fin
